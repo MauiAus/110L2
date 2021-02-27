@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/110L/Desktop/110/Experiment2/full_Adder.xst" -ofn "C:/Users/110L/Desktop/110/Experiment2/full_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 full_Adder.ngc full_Adder.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o full_Adder_map.ncd full_Adder.ngd full_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 full_Adder_map.ncd full_Adder.ncd full_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml full_Adder.twx full_Adder.ncd -o full_Adder.twr full_Adder.pcf 
+xst -intstyle ise -ifn "C:/Users/110L/Desktop/110/Experiment2/full_Adder.xst" -ofn "C:/Users/110L/Desktop/110/Experiment2/full_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 full_Adder.ngc full_Adder.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o full_Adder_map.ncd full_Adder.ngd full_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 full_Adder_map.ncd full_Adder.ncd full_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml full_Adder.twx full_Adder.ncd -o full_Adder.twr full_Adder.pcf 

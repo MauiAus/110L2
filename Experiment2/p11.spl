@@ -1,0 +1,11 @@
+[Inputs]
+a
+b
+c
+[Outputs]
+diff
+borrow
+[BiDir]
+[ATTRIBUTES]
+VeriModel p11
+

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/110L/Desktop/110/Experiment2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/110L/Desktop/110/Experiment2/xst"
+elaborate
+-ifn full_add.prj
+-ifmt mixed

@@ -1,0 +1,18 @@
+Running: C:\Xilinx\13.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/110L/Desktop/110/fsm1/fsm2_tb_isim_beh.exe -prj C:/Users/110L/Desktop/110/fsm1/fsm2_tb_beh.prj work.fsm2_tb work.glbl 
+ISim O.40d (signature 0xc4ca3437)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/110L/Desktop/110/fsm1/fsm2.v\" into library work
+Analyzing Verilog file \"C:/Users/110L/Desktop/110/fsm1/fsm2_tb.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module fsm2
+Compiling module fsm2_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/110L/Desktop/110/fsm1/fsm2_tb_isim_beh.exe
+Fuse Memory Usage: 16048 KB
+Fuse CPU Usage: 265 ms

@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/Users/110L/Desktop/110/Experiment2/full_adder_nand.v -lang verilog -prj Experiment2 -o full_adder_nand.spl -module full_adder_nand -template C:/Xilinx/13.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e full_adder_nand.spl C:/Users/110L/Desktop/110/Experiment2/full_adder_nand.sym 
+xst -intstyle ise -ifn "C:/Users/110L/Desktop/110/Experiment2/full_adder_nand.xst" -ofn "C:/Users/110L/Desktop/110/Experiment2/full_adder_nand.syr" 

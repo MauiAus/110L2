@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/110L/Desktop/110/EmbedTest/fourBitConverter.xst" -ofn "C:/Users/110L/Desktop/110/EmbedTest/fourBitConverter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 fourBitConverter.ngc fourBitConverter.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o fourBitConverter_map.ncd fourBitConverter.ngd fourBitConverter.pcf 
+par -w -intstyle ise -ol high -t 1 fourBitConverter_map.ncd fourBitConverter.ncd fourBitConverter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fourBitConverter.twx fourBitConverter.ncd -o fourBitConverter.twr fourBitConverter.pcf 
+bitgen -intstyle ise -f fourBitConverter.ut fourBitConverter.ncd 
+xst -intstyle ise -ifn "C:/Users/110L/Desktop/110/EmbedTest/fourBitConverter.xst" -ofn "C:/Users/110L/Desktop/110/EmbedTest/fourBitConverter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 fourBitConverter.ngc fourBitConverter.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o fourBitConverter_map.ncd fourBitConverter.ngd fourBitConverter.pcf 
+par -w -intstyle ise -ol high -t 1 fourBitConverter_map.ncd fourBitConverter.ncd fourBitConverter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fourBitConverter.twx fourBitConverter.ncd -o fourBitConverter.twr fourBitConverter.pcf 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/110L/Desktop/110/Drill5/johnson_counter_tb_isim_beh.exe" -prj "C:/Users/110L/Desktop/110/Drill5/johnson_counter_tb_beh.prj" "work.johnson_counter_tb" "work.glbl" 

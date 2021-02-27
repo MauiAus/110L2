@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/110L/Desktop/110/o_gate/o_gate_isim_beh.exe" -prj "C:/Users/110L/Desktop/110/o_gate/o_gate_beh.prj" "work.o_gate" "work.glbl" 

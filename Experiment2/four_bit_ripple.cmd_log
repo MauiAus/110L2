@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/110L/Desktop/110/Experiment2/four_bit_ripple.xst" -ofn "C:/Users/110L/Desktop/110/Experiment2/four_bit_ripple.syr" 

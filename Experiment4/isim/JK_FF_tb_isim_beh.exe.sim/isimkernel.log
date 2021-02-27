@@ -1,0 +1,29 @@
+Command line:
+   JK_FF_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49199
+
+Mon Jan 11 18:27:33 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 493.793 Meg
+
+ Total Signals          : 18
+ Total Nets             : 18
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 105
+Total Line Count : 32
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 493.793 Meg
+
+Mon Jan 11 18:28:02 2021
+

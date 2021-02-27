@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\110L\Desktop\110\EmbedTest\fourBitConverter.ncd
+OUTFILE=C:\Users\110L\Desktop\110\EmbedTest\fourBitConverter.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4cp132
+WORKINGDIR=C:\Users\110L\Desktop\110\EmbedTest
+LICENSE=WebPack
+USER_INFO=211573463_0_0_718
